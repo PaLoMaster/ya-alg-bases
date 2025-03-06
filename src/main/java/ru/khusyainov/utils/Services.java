@@ -32,6 +32,10 @@ public class Services {
         return getStringsFromFile(OUTPUT_TXT);
     }
 
+    public static String getStringFromOutput() {
+        return getStringsFromOutput().get(0)[0];
+    }
+
     public static List<Integer[]> stringsToIntegers(List<String[]> list) {
         return list.stream().map(s -> Arrays.stream(s).map(Integer::parseInt).toArray(Integer[]::new)).
                 collect(Collectors.toList());

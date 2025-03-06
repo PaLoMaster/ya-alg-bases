@@ -9,3 +9,8 @@
  * [Задачи](https://new.contest.yandex.ru/48557);
  * Моё решение: [A - бронирование переговорки](src/main/java/ru/khusyainov/p32/A.java);
  * Тесты: [ATest](src/test/java/ru/khusyainov/p32/ATest.java).
+
+3.3. [Динамическое программирование](https://education.yandex.ru/handbook/algorithms/article/dinamicheskoe-programmirovanie).
+ * [Задачи](https://new.contest.yandex.ru/48558);
+ * Моё решение: [A - камни](src/main/java/ru/khusyainov/p33/A.java), [B - камни 2](src/main/java/ru/khusyainov/p33/B.java);
+ * Тесты: [ATest](src/test/java/ru/khusyainov/p33/ATest.java), [BTest](src/test/java/ru/khusyainov/p33/BTest.java).
