@@ -14,3 +14,8 @@
  * [Задачи](https://new.contest.yandex.ru/48558);
  * Моё решение: [A - камни](src/main/java/ru/khusyainov/p33/A.java), [B - камни 2](src/main/java/ru/khusyainov/p33/B.java);
  * Тесты: [ATest](src/test/java/ru/khusyainov/p33/ATest.java), [BTest](src/test/java/ru/khusyainov/p33/BTest.java).
+
+3.4. [Рекурсивные алгоритмы](https://education.yandex.ru/handbook/algorithms/article/rekursivnye-algoritmy).
+* [Задачи](https://new.contest.yandex.ru/48568);
+* Моё решение: [A - ханойские башни](src/main/java/ru/khusyainov/p34/A.java), [B - ханойские башни 2](src/main/java/ru/khusyainov/p34/B.java);
+* Тесты: [ATest](src/test/java/ru/khusyainov/p34/ATest.java), [BTest](src/test/java/ru/khusyainov/p34/BTest.java).
