@@ -19,3 +19,8 @@
 * [Задачи](https://new.contest.yandex.ru/48568);
 * Моё решение: [A - ханойские башни](src/main/java/ru/khusyainov/p34/A.java), [B - ханойские башни 2](src/main/java/ru/khusyainov/p34/B.java);
 * Тесты: [ATest](src/test/java/ru/khusyainov/p34/ATest.java), [BTest](src/test/java/ru/khusyainov/p34/BTest.java).
+
+3.5. [Алгоритмы "Разделяй и властвуй"](https://education.yandex.ru/handbook/algorithms/article/razdelyaj-i-vlastvuj).
+* [Задачи](https://new.contest.yandex.ru/48569);
+* Моё решение: [A - сотрировка выбором](src/main/java/ru/khusyainov/p35/A.java), [B - слияние сортированных последовательностей](src/main/java/ru/khusyainov/p35/B.java), [C - сортировка слиянием](src/main/java/ru/khusyainov/p35/C.java);
+* Тесты: [ATest](src/test/java/ru/khusyainov/p35/ATest.java), [BTest](src/test/java/ru/khusyainov/p35/BTest.java), [CTest](src/test/java/ru/khusyainov/p35/CTest.java).
