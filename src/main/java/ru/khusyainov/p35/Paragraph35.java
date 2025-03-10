@@ -8,10 +8,9 @@ import java.util.stream.Collectors;
  */
 public class Paragraph35 {
     public static void main(String[] args) {
-        Integer[][] arr = new Integer[][]{{7}, {13, 17, 37, 73, 31, 19, 23}};
-        sort(new A(), arr, "selection");
-        sort(new C(), arr, "merge");
-        arr = new Integer[][]{{3}, {3}, {1, 2, 3}, {2}, {1, 2}, {4}, {3, 5, 6, 7}};
+        sort(new A(), new Integer[][]{{7}, {13, 17, 37, 73, 31, 19, 23}}, "selection");
+        sort(new C(), new Integer[][]{{7}, {13, 17, 37, 73, 31, 19, 23}}, "merge");
+        Integer[][] arr = new Integer[][]{{3}, {3}, {1, 2, 3}, {2}, {1, 2}, {4}, {3, 5, 6, 7}};
         System.out.printf("\tFor input:%n%s%n\tJoined array is:%n%s",
                 Arrays.stream(arr)
                         .map(a -> Arrays.stream(a).map(String::valueOf).collect(Collectors.joining(", ")))
