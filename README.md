@@ -24,3 +24,8 @@
 * [Задачи](https://new.contest.yandex.ru/48569);
 * Моё решение: [A - сотрировка выбором](src/main/java/ru/khusyainov/p35/A.java), [B - слияние сортированных последовательностей](src/main/java/ru/khusyainov/p35/B.java), [C - сортировка слиянием](src/main/java/ru/khusyainov/p35/C.java);
 * Тесты: [ATest](src/test/java/ru/khusyainov/p35/ATest.java), [BTest](src/test/java/ru/khusyainov/p35/BTest.java), [CTest](src/test/java/ru/khusyainov/p35/CTest.java).
+
+3.6. [Рандомизированные алгоритмы](https://education.yandex.ru/handbook/algorithms/article/randomizirovannye-algoritmy).
+* [Задачи](https://new.contest.yandex.ru/48570);
+* Моё решение: [A - разбиение Ломуто](src/main/java/ru/khusyainov/p36/A.java), [B - быстрая сортировка](src/main/java/ru/khusyainov/p36/B.java);
+* Тесты: [ATest](src/test/java/ru/khusyainov/p36/ATest.java), [BTest](src/test/java/ru/khusyainov/p36/BTest.java).
