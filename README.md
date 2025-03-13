@@ -29,3 +29,8 @@
 * [Задачи](https://new.contest.yandex.ru/48570);
 * Моё решение: [A - разбиение Ломуто](src/main/java/ru/khusyainov/p36/A.java), [B - быстрая сортировка](src/main/java/ru/khusyainov/p36/B.java);
 * Тесты: [ATest](src/test/java/ru/khusyainov/p36/ATest.java), [BTest](src/test/java/ru/khusyainov/p36/BTest.java).
+
+4.2. [Задача "Сумма двух чисел"](https://education.yandex.ru/handbook/algorithms/article/zadacha-summa-dvuh-chisel).
+* [Задачи](https://new.contest.yandex.ru/42492);
+* Моё решение: [A - A + B](src/main/java/ru/khusyainov/p42/A.java), [B - A(x) + B(x)](src/main/java/ru/khusyainov/p42/B.java), [C - A + B строки](src/main/java/ru/khusyainov/p42/C.java), [D - A + B матрицы](src/main/java/ru/khusyainov/p42/D.java);
+* Тесты: [ATest](src/test/java/ru/khusyainov/p42/ATest.java), [BTest](src/test/java/ru/khusyainov/p42/BTest.java), [CTest](src/test/java/ru/khusyainov/p42/CTest.java), [DTest](src/test/java/ru/khusyainov/p42/DTest.java).

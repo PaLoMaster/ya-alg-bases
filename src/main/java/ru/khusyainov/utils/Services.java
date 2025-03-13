@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 public class Services {
     private static final String INPUT_TXT = "input.txt";
     private static final String OUTPUT_TXT = "output.txt";
+
     private static List<String[]> getStringsFromFile(String fileName) {
         List<String[]> result = new LinkedList<>();
         String lineSplitter = " ";
@@ -32,13 +33,19 @@ public class Services {
         return getStringsFromFile(OUTPUT_TXT);
     }
 
-    public static String getStringFromOutput() {
-        return getStringsFromOutput().get(0)[0];
-    }
-
     public static List<Integer[]> stringsToIntegers(List<String[]> list) {
         return list.stream().map(s -> Arrays.stream(s).map(Integer::parseInt).toArray(Integer[]::new)).
                 collect(Collectors.toList());
+    }
+
+    public static String[] integersToStrings(Integer[][] array) {
+        return Arrays.stream(array).map(a ->
+                        Arrays.stream(a).map(String::valueOf).collect(Collectors.joining(" "))).
+                toArray(String[]::new);
+    }
+
+    public static String integersToString(Integer[][] array) {
+        return String.join("\n", integersToStrings(array));
     }
 
     public static List<Integer[]> getIntegersFromInput() {
