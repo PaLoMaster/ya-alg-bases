@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
  */
 public class Paragraph35 {
     public static void main(String[] args) {
+        System.out.println("Divide and Conquer algorithms.\n");
         sort(new A(), new Integer[][]{{7}, {13, 17, 37, 73, 31, 19, 23}}, "selection");
         sort(new C(), new Integer[][]{{7}, {13, 17, 37, 73, 31, 19, 23}}, "merge");
         Integer[][] arr = new Integer[][]{{3}, {3}, {1, 2, 3}, {2}, {1, 2}, {4}, {3, 5, 6, 7}};

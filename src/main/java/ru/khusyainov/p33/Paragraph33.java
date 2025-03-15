@@ -5,6 +5,7 @@ package ru.khusyainov.p33;
  */
 public class Paragraph33 {
     public static void main(String[] args) {
+        System.out.println("Dynamic programming.\n");
         roks(new A(), 10, 2, Roks.LOSE);
         roks(new A(), 4, 5, Roks.WIN);
         roks(new B(), 4, 4, Roks.LOSE);

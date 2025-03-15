@@ -33,6 +33,55 @@ configurations.configureEach {
     }
 }
 
+tasks.register('paragraph31', JavaExec) {
+    group = "Execution"
+    description = "Run the paragraph 3.1 main class with JavaExecTask"
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = "ru.khusyainov.p31.Paragraph31"
+}
+
+tasks.register('paragraph32', JavaExec) {
+    group = "Execution"
+    description = "Run the paragraph 3.2 main class with JavaExecTask"
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = "ru.khusyainov.p32.Paragraph32"
+}
+
+tasks.register('paragraph33', JavaExec) {
+    group = "Execution"
+    description = "Run the paragraph 3.3 main class with JavaExecTask"
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = "ru.khusyainov.p33.Paragraph33"
+}
+
+tasks.register('paragraph34', JavaExec) {
+    group = "Execution"
+    description = "Run the paragraph 3.4 main class with JavaExecTask"
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = "ru.khusyainov.p34.Paragraph34"
+}
+
+tasks.register('paragraph35', JavaExec) {
+    group = "Execution"
+    description = "Run the paragraph 3.5 main class with JavaExecTask"
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = "ru.khusyainov.p35.Paragraph35"
+}
+
+tasks.register('paragraph36', JavaExec) {
+    group = "Execution"
+    description = "Run the paragraph 3.6 main class with JavaExecTask"
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = "ru.khusyainov.p36.Paragraph36"
+}
+
+tasks.register('paragraph42', JavaExec) {
+    group = "Execution"
+    description = "Run the paragraph 4.2 main class with JavaExecTask"
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = "ru.khusyainov.p42.Paragraph42"
+}
+
 tasks.register('paragraph43', JavaExec) {
     group = "Execution"
     description = "Run the paragraph 4.3 main class with JavaExecTask"

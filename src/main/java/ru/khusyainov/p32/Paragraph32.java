@@ -9,6 +9,7 @@ import java.util.List;
  */
 public class Paragraph32 {
     public static void main(String[] args) {
+        System.out.println("Greedy algorithms.\n");
         final String LS = System.lineSeparator();
         final String count = "11";
         final String time = "0 16" + LS + "3 8" + LS + "0 4" + LS + "19 21" + LS + "3 5" + LS +

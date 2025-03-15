@@ -5,6 +5,7 @@ package ru.khusyainov.p34;
  */
 public class Paragraph34 {
     public static void main(String[] args) {
+        System.out.println("Recursive algorithms.\n");
         TowersOfHanoi towers = new A();
         towersOfHanoi(towers, 3, 3, "7");
         towersOfHanoi(towers, 5, 3, "31");

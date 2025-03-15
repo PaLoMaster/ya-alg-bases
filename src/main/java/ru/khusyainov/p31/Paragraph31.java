@@ -7,6 +7,7 @@ import ru.khusyainov.utils.Services;
  */
 public class Paragraph31 {
     public static void main(String[] args) {
+        System.out.println("Complete enumeration and enumeration optimization.\n");
         String in = "5";
         Services.writeToInput(in);
         A.permutations();

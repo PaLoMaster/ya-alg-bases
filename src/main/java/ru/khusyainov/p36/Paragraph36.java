@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
  */
 public class Paragraph36 {
     public static void main(String[] args) {
+        System.out.println("Randomized algorithms.\n");
         Integer[][] arr = new Integer[][]{{7}, {13, 17, 37, 73, 31, 19, 23}};
         sort(new A(), arr, "A Lamuto");
         ArraysSort quickSort = new B();

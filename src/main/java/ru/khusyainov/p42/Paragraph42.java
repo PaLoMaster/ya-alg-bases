@@ -9,6 +9,7 @@ public class Paragraph42 {
     private static final String TEMPLATE = "\tFor input:%n%s%n\tSum of %s is:%n%s%n%n";
 
     public static void main(String[] args) {
+        System.out.println("Sum of two numbers.\n");
         Integer[][] input = new Integer[][]{{2}, {7, 37, 73}, {6}, {13, 17, 37, 73, 31, 19, 23}};
         print(input[1][0] + ", " + input[1][1], "numbers",
                 String.valueOf(new A().sumNumbers(input[1][0], input[1][1])));
