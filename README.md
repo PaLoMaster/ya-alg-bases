@@ -34,3 +34,8 @@
 * [Задачи](https://new.contest.yandex.ru/42492);
 * Моё решение: [A - A + B](src/main/java/ru/khusyainov/p42/A.java), [B - A(x) + B(x)](src/main/java/ru/khusyainov/p42/B.java), [C - A + B строки](src/main/java/ru/khusyainov/p42/C.java), [D - A + B матрицы](src/main/java/ru/khusyainov/p42/D.java);
 * Тесты: [ATest](src/test/java/ru/khusyainov/p42/ATest.java), [BTest](src/test/java/ru/khusyainov/p42/BTest.java), [CTest](src/test/java/ru/khusyainov/p42/CTest.java), [DTest](src/test/java/ru/khusyainov/p42/DTest.java).
+
+4.3. [Задача "Максимальное произведение"](https://education.yandex.ru/handbook/algorithms/article/zadacha-maksimalnoe-proizvedenie).
+* [Задачи](https://new.contest.yandex.ru/42734);
+* Моё решение: [A - максимальное произведение](src/main/java/ru/khusyainov/p43/A.java), [B - максимальное произведение — контрпример](src/main/java/ru/khusyainov/p43/B.java), [C - максимальное произведение трёх чисел](src/main/java/ru/khusyainov/p43/C.java), [D - максимальное произведение четырёх чисел](src/main/java/ru/khusyainov/p43/D.java);
+* Тесты: [ATest](src/test/java/ru/khusyainov/p43/ATest.java), [BTest](src/test/java/ru/khusyainov/p43/BTest.java), [CTest](src/test/java/ru/khusyainov/p43/CTest.java), [DTest](src/test/java/ru/khusyainov/p43/DTest.java).

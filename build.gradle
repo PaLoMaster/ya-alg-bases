@@ -2,6 +2,12 @@ plugins {
     id 'java'
 }
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(15)
+    }
+}
+
 group 'ru.khusyainov'
 version '1.0-SNAPSHOT'
 
@@ -25,4 +31,11 @@ configurations.configureEach {
             details.useVersion "5.11.4"
         }
     }
+}
+
+tasks.register('paragraph43', JavaExec) {
+    group = "Execution"
+    description = "Run the paragraph 4.3 main class with JavaExecTask"
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = "ru.khusyainov.p43.Paragraph43"
 }
