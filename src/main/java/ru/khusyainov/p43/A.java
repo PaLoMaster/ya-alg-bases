@@ -18,7 +18,7 @@ import java.util.Arrays;
  * </ul>
  */
 public class A {
-    public Long maxProduct(Integer[][] input) {
+    public static Long maxProduct(Integer[][] input) {
         Integer[] sorted = input[1];
         Arrays.sort(sorted);
         int i = sorted.length - 1;

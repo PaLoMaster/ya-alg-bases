@@ -17,7 +17,7 @@ package ru.khusyainov.p42;
  * </ul>
  */
 public class C {
-    public String sumRows(String[] set) {
+    public static String sumRows(String[] set) {
         int count = Integer.parseInt(set[0]);
         String row1 = set[1], row2 = set[2];
         StringBuilder resultRow = new StringBuilder(count * 2);

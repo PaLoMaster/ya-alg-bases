@@ -15,7 +15,7 @@ package ru.khusyainov.p42;
  * </ul>
  */
 public class D {
-    public Integer[][] sumMatrices(Integer[][] set) {
+    public static Integer[][] sumMatrices(Integer[][] set) {
         int rows = set[0][0], columns = set[0][1];
         Integer[][] result = new Integer[rows][columns];
         for (int i = 0; i < rows; i++) {

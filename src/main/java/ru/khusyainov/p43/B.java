@@ -33,7 +33,7 @@ package ru.khusyainov.p43;
  * </ul></li>
  */
 public class B {
-    public String[] maxProductComparisonCount(Integer input) {
+    public static String[] maxProductComparisonCount(Integer input) {
         if (1 + (input - 2) * 2 <= 1.5 * input) {
             return new String[]{"No"};
         }

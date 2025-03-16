@@ -1,5 +1,6 @@
 package ru.khusyainov.p36;
 
+import org.junit.jupiter.api.Timeout;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.converter.ConvertWith;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -14,6 +15,7 @@ public class BTest {
             "'3\n1 11 1', 1 1 11 "
     })
     @ParameterizedTest
+    @Timeout(1000)
     void quickSortTest(@ConvertWith(IntArrayConverter.class) Integer[][] input,
                        @ConvertWith(IntArrayConverter.class) Integer[] output) {
         assertArrayEquals(output, new B().sort(input));

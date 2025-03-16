@@ -10,7 +10,7 @@ package ru.khusyainov.p42;
  * </ul>
  */
 public class A {
-    public Integer sumNumbers(Integer number1, Integer number2) {
+    public static Integer sumNumbers(Integer number1, Integer number2) {
         return number1 + number2;
     }
 }

@@ -1,5 +1,6 @@
 package ru.khusyainov.p43;
 
+import org.junit.jupiter.api.Timeout;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
@@ -14,7 +15,8 @@ public class BTest {
             "12, Yes"
     })
     @ParameterizedTest
+    @Timeout(1000)
     void maxProductComparisonCountTest(Integer input, String output) {
-        assertEquals(output, new B().maxProductComparisonCount(input)[0]);
+        assertEquals(output, B.maxProductComparisonCount(input)[0]);
     }
 }

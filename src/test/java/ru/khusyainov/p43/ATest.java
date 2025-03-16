@@ -1,5 +1,6 @@
 package ru.khusyainov.p43;
 
+import org.junit.jupiter.api.Timeout;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.converter.ConvertWith;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -16,7 +17,8 @@ public class ATest {
             "'4\n100000 100000 100000 99999', 10000000000"
     })
     @ParameterizedTest
+    @Timeout(1000)
     void maxProductTest(@ConvertWith(IntArrayConverter.class) Integer[][] input, Long output) {
-        assertEquals(output, new A().maxProduct(input));
+        assertEquals(output, A.maxProduct(input));
     }
 }

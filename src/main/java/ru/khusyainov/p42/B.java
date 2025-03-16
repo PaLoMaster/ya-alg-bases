@@ -24,7 +24,7 @@ import java.util.*;
  * </ul>
  */
 public class B {
-    public Integer[][] sumPolynomials(Integer[][] set) {
+    public static Integer[][] sumPolynomials(Integer[][] set) {
         List<Integer> list1 = new ArrayList<>(Arrays.asList(set[1])),
                 list2 = new ArrayList<>(Arrays.asList(set[3]));
         int count = Integer.max(list1.size(), list2.size());

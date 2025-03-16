@@ -1,5 +1,6 @@
 package ru.khusyainov.p35;
 
+import org.junit.jupiter.api.Timeout;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.converter.ConvertWith;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -14,6 +15,7 @@ public class ATest {
             "'3\n1 2 3', 1 2 3"
     })
     @ParameterizedTest
+    @Timeout(1000)
     void selectionSortTest(@ConvertWith(IntArrayConverter.class) Integer[][] input,
                            @ConvertWith(IntArrayConverter.class) Integer[] output) {
         assertArrayEquals(output, new A().sort(input));

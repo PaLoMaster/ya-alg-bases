@@ -1,5 +1,6 @@
 package ru.khusyainov.p31;
 
+import org.junit.jupiter.api.Timeout;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import ru.khusyainov.utils.Services;
@@ -13,6 +14,7 @@ public class BTest {
             "1 1, 1"
     })
     @ParameterizedTest
+    @Timeout(1000)
     void permutationsTest(String input, int output) {
         Services.writeToInput(input);
         B.combinations();

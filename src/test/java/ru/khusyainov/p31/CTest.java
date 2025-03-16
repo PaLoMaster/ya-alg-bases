@@ -1,5 +1,6 @@
 package ru.khusyainov.p31;
 
+import org.junit.jupiter.api.Timeout;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import ru.khusyainov.utils.Services;
@@ -14,6 +15,7 @@ public class CTest {
             "7 5, 462"
     })
     @ParameterizedTest
+    @Timeout(1000)
     void combinationsTest(String input, int output) {
         Services.writeToInput(input);
         C.combinationsWithRepetitions();

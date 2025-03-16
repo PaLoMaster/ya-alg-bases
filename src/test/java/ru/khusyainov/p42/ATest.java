@@ -1,5 +1,6 @@
 package ru.khusyainov.p42;
 
+import org.junit.jupiter.api.Timeout;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.converter.ConvertWith;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -15,7 +16,8 @@ public class ATest {
             "0 9, 9"
     })
     @ParameterizedTest
+    @Timeout(1000)
     void sumNumbersTest(@ConvertWith(IntArrayConverter.class) Integer[] input, Integer output) {
-        assertEquals(output, new A().sumNumbers(input[0], input[1]));
+        assertEquals(output, A.sumNumbers(input[0], input[1]));
     }
 }

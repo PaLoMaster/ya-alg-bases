@@ -1,5 +1,6 @@
 package ru.khusyainov.p33;
 
+import org.junit.jupiter.api.Timeout;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
@@ -12,6 +13,7 @@ public class ATest {
             "6, 8, Lose"
     })
     @ParameterizedTest
+    @Timeout(1000)
     void roksTest(int myRoksCount, int hisRoksCount, String output) {
         assertEquals(output, new A().solve(myRoksCount, hisRoksCount));
     }

@@ -19,7 +19,7 @@ import java.util.Arrays;
  * </ul>
  */
 public class C {
-    public Long maxThreeProduct(Integer[][] input) {
+    public static Long maxThreeProduct(Integer[][] input) {
         Integer[] sorted = input[1];
         Arrays.sort(sorted);
         int i = sorted.length - 1;
@@ -28,7 +28,7 @@ public class C {
         return Math.max(multiply1, multiply2);
     }
 
-    private Long multiply(int i, int j, int k) {
+    private static Long multiply(int i, int j, int k) {
         return Math.multiplyExact(Math.multiplyFull(i, j), k);
     }
 }

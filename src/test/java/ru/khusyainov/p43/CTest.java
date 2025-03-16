@@ -1,5 +1,6 @@
 package ru.khusyainov.p43;
 
+import org.junit.jupiter.api.Timeout;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.converter.ConvertWith;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -19,7 +20,8 @@ public class CTest {
             "'5\n200000 200000 200000 200000 199999', 8000000000000000"
     })
     @ParameterizedTest
+    @Timeout(1000)
     void maxThreeProductTest(@ConvertWith(IntArrayConverter.class) Integer[][] input, Long output) {
-        assertEquals(output, new C().maxThreeProduct(input));
+        assertEquals(output, C.maxThreeProduct(input));
     }
 }

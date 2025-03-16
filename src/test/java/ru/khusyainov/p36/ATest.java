@@ -1,5 +1,6 @@
 package ru.khusyainov.p36;
 
+import org.junit.jupiter.api.Timeout;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.converter.ConvertWith;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -15,6 +16,7 @@ public class ATest {
             "'5\n1 3 2 9 10', 1 3 2 9 10"
     })
     @ParameterizedTest
+    @Timeout(1000)
     void aLomutoPartitioningTest(@ConvertWith(IntArrayConverter.class) Integer[][] input,
                                  @ConvertWith(IntArrayConverter.class) Integer[] output) {
         assertArrayEquals(output, new A().sort(input));

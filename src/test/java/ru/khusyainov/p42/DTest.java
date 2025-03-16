@@ -1,5 +1,6 @@
 package ru.khusyainov.p42;
 
+import org.junit.jupiter.api.Timeout;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.converter.ConvertWith;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -14,9 +15,10 @@ public class DTest {
             "'10 3\n1 2 3\n4 5 6\n1 2 3\n4 5 6\n1 2 3\n4 5 6\n1 2 3\n4 5 6\n1 2 3\n4 5 6\n1 2 3\n4 5 6\n1 2 3\n4 5 6\n1 2 3\n4 5 6\n1 2 3\n4 5 6\n1 2 3\n4 5 6', '2 4 6\n8 10 12\n2 4 6\n8 10 12\n2 4 6\n8 10 12\n2 4 6\n8 10 12\n2 4 6\n8 10 12'"
     })
     @ParameterizedTest
+    @Timeout(1000)
     void sumManyRowsMatricesTest(@ConvertWith(IntArrayConverter.class) Integer[][] input,
                                  @ConvertWith(IntArrayConverter.class) Integer[][] output) {
-        assertArrayEquals(output, new D().sumMatrices(input));
+        assertArrayEquals(output, D.sumMatrices(input));
     }
 
     @CsvSource({
@@ -24,6 +26,7 @@ public class DTest {
             "'1 3\n1 2 3\n4 5 6', '5 7 9'"
     })
     @ParameterizedTest
+    @Timeout(1000)
     void sumOneRowMatricesTest(@ConvertWith(IntArrayConverter.class) Integer[][] input,
                                @ConvertWith(IntArrayConverter.class) Integer[] output) {
         assertArrayEquals(output, new D().sumMatrices(input)[0]);

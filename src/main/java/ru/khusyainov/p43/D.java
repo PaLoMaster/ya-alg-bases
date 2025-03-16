@@ -20,7 +20,7 @@ import java.util.Arrays;
  * </ul>
  */
 public class D {
-    public BigInteger maxFourProduct(Integer[][] input) {
+    public static BigInteger maxFourProduct(Integer[][] input) {
         Integer[] sorted = input[1];
         Arrays.sort(sorted);
         int i = sorted.length - 1;
@@ -30,7 +30,7 @@ public class D {
         return multiply;
     }
 
-    private BigInteger multiply(int i, int j, int k, int l) {
+    private static BigInteger multiply(int i, int j, int k, int l) {
         return BigInteger.valueOf(Math.multiplyFull(i, j)).multiply(BigInteger.valueOf(Math.multiplyFull(k, l)));
     }
 }

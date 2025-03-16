@@ -12,15 +12,15 @@ public class Paragraph42 {
         System.out.println("Sum of two numbers.\n");
         Integer[][] input = new Integer[][]{{2}, {7, 37, 73}, {6}, {13, 17, 37, 73, 31, 19, 23}};
         print(input[1][0] + ", " + input[1][1], "numbers",
-                String.valueOf(new A().sumNumbers(input[1][0], input[1][1])));
+                String.valueOf(A.sumNumbers(input[1][0], input[1][1])));
 
-        print(input, "polynomials", new B().sumPolynomials(input));
+        print(input, "polynomials", B.sumPolynomials(input));
 
         String[] input2 = new String[]{"5", "abcde", "fedcb"};
-        print(String.join("\n", input2), "rows", new C().sumRows(input2));
+        print(String.join("\n", input2), "rows", C.sumRows(input2));
 
         input = new Integer[][]{{2, 3}, {7, 37, 73}, {13, 17, 37}, {73, 31, 19}, {23, 2, 3}};
-        print(input, "matrices", new D().sumMatrices(input));
+        print(input, "matrices", D.sumMatrices(input));
     }
 
     private static void print(String input, String sumType, String output) {
