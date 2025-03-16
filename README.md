@@ -39,3 +39,8 @@
 * [Задачи](https://new.contest.yandex.ru/42734);
 * Моё решение: [A - максимальное произведение](src/main/java/ru/khusyainov/p43/A.java), [B - максимальное произведение — контрпример](src/main/java/ru/khusyainov/p43/B.java), [C - максимальное произведение трёх чисел](src/main/java/ru/khusyainov/p43/C.java), [D - максимальное произведение четырёх чисел](src/main/java/ru/khusyainov/p43/D.java);
 * Тесты: [ATest](src/test/java/ru/khusyainov/p43/ATest.java), [BTest](src/test/java/ru/khusyainov/p43/BTest.java), [CTest](src/test/java/ru/khusyainov/p43/CTest.java), [DTest](src/test/java/ru/khusyainov/p43/DTest.java).
+
+5.1. [Задачи о числах Фибоначчи](https://education.yandex.ru/handbook/algorithms/article/zadachi-o-chislah-fibonachchi).
+* [Задачи](https://new.contest.yandex.ru/47496);
+* Моё решение: [A - числа Фибоначчи](src/main/java/ru/khusyainov/p51/A.java), [B - последняя цифра числа Фибоначчи](src/main/java/ru/khusyainov/p51/B.java), [C - огромное число Фибоначчи](src/main/java/ru/khusyainov/p51/C.java), [D - последняя цифра суммы чисел Фибоначчи](src/main/java/ru/khusyainov/p51/D.java), [E - последняя цифра частичной суммы чисел Фибоначчи](src/main/java/ru/khusyainov/p51/E.java);
+* Тесты: [ATest](src/test/java/ru/khusyainov/p51/ATest.java), [BTest](src/test/java/ru/khusyainov/p51/BTest.java), [CTest](src/test/java/ru/khusyainov/p51/CTest.java), [DTest](src/test/java/ru/khusyainov/p51/DTest.java), [ETest](src/test/java/ru/khusyainov/p51/ETest.java).

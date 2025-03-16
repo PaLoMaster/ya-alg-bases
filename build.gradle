@@ -88,3 +88,10 @@ tasks.register('paragraph43', JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
     mainClass = "ru.khusyainov.p43.Paragraph43"
 }
+
+tasks.register('paragraph51', JavaExec) {
+    group = "Execution"
+    description = "Run the paragraph 5.1 main class with JavaExecTask"
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = "ru.khusyainov.p51.Paragraph51"
+}
