@@ -44,3 +44,8 @@
 * [Задачи](https://new.contest.yandex.ru/47496);
 * Моё решение: [A - числа Фибоначчи](src/main/java/ru/khusyainov/p51/A.java), [B - последняя цифра числа Фибоначчи](src/main/java/ru/khusyainov/p51/B.java), [C - огромное число Фибоначчи](src/main/java/ru/khusyainov/p51/C.java), [D - последняя цифра суммы чисел Фибоначчи](src/main/java/ru/khusyainov/p51/D.java), [E - последняя цифра частичной суммы чисел Фибоначчи](src/main/java/ru/khusyainov/p51/E.java);
 * Тесты: [ATest](src/test/java/ru/khusyainov/p51/ATest.java), [BTest](src/test/java/ru/khusyainov/p51/BTest.java), [CTest](src/test/java/ru/khusyainov/p51/CTest.java), [DTest](src/test/java/ru/khusyainov/p51/DTest.java), [ETest](src/test/java/ru/khusyainov/p51/ETest.java).
+
+5.2. [Вычисление НОК и НОД](https://education.yandex.ru/handbook/algorithms/article/vychislenie-nok-i-nod).
+* [Задачи](https://new.contest.yandex.ru/47560);
+* Моё решение: [A - наибольший общий делитель](src/main/java/ru/khusyainov/p52/A.java), [B - наименьшее общее кратное](src/main/java/ru/khusyainov/p52/B.java), [C - наибольшее число шагов алгоритма Евклида](src/main/java/ru/khusyainov/p52/C.java);
+* Тесты: [ATest](src/test/java/ru/khusyainov/p52/ATest.java), [BTest](src/test/java/ru/khusyainov/p52/BTest.java), [CTest](src/test/java/ru/khusyainov/p52/CTest.java).
