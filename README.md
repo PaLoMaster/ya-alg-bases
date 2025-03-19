@@ -49,3 +49,8 @@
 * [Задачи](https://new.contest.yandex.ru/47560);
 * Моё решение: [A - наибольший общий делитель](src/main/java/ru/khusyainov/p52/A.java), [B - наименьшее общее кратное](src/main/java/ru/khusyainov/p52/B.java), [C - наибольшее число шагов алгоритма Евклида](src/main/java/ru/khusyainov/p52/C.java);
 * Тесты: [ATest](src/test/java/ru/khusyainov/p52/ATest.java), [BTest](src/test/java/ru/khusyainov/p52/BTest.java), [CTest](src/test/java/ru/khusyainov/p52/CTest.java).
+
+6.1. [Задача "Размен"](https://education.yandex.ru/handbook/algorithms/article/zadacha-razmen).
+* [Задачи](https://new.contest.yandex.ru/48625);
+* Моё решение: [A - размен: все варианты](src/main/java/ru/khusyainov/p61/A.java), [B - размен: 1, 5, 10, 20, 50](src/main/java/ru/khusyainov/p61/B.java);
+* Тесты: [ATest](src/test/java/ru/khusyainov/p61/ATest.java), [BTest](src/test/java/ru/khusyainov/p61/BTest.java).
