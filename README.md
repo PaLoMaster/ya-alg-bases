@@ -54,3 +54,8 @@
 * [Задачи](https://new.contest.yandex.ru/48625);
 * Моё решение: [A - размен: все варианты](src/main/java/ru/khusyainov/p61/A.java), [B - размен: 1, 5, 10, 20, 50](src/main/java/ru/khusyainov/p61/B.java);
 * Тесты: [ATest](src/test/java/ru/khusyainov/p61/ATest.java), [BTest](src/test/java/ru/khusyainov/p61/BTest.java).
+
+6.2. [Задача "Специи"](https://education.yandex.ru/handbook/algorithms/article/zadacha-specii).
+* [Задачи](https://new.contest.yandex.ru/48626);
+* Моё решение: [A - специи](src/main/java/ru/khusyainov/p62/A.java), [B - сувениры](src/main/java/ru/khusyainov/p62/B.java);
+* Тесты: [ATest](src/test/java/ru/khusyainov/p62/ATest.java), [BTest](src/test/java/ru/khusyainov/p62/BTest.java).
