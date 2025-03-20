@@ -64,3 +64,5 @@
 * [Задачи](https://new.contest.yandex.ru/48627);
 * Моё решение: [A - рекламная кампания](src/main/java/ru/khusyainov/p63/A.java), [B - реклама на билбордах](src/main/java/ru/khusyainov/p63/B.java);
 * Тесты: [ATest](src/test/java/ru/khusyainov/p63/ATest.java), [BTest](src/test/java/ru/khusyainov/p63/BTest.java).
+
+Дальше устал разбираться с багами тестов и пошёл на другие курсы)

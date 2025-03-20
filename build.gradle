@@ -25,6 +25,13 @@ test {
     useJUnitPlatform()
 }
 
+tasks.register('Main', JavaExec) {
+    group = "Execution"
+    description = "Run the Main class with JavaExecTask"
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = "ru.khusyainov.Main"
+}
+
 configurations.configureEach {
     resolutionStrategy.eachDependency { details ->
         if (details.requested.group == 'org.junit.jupiter') {
